@@ -1,0 +1,29 @@
+/*ionic标签样式*/
+a{
+    color:black;
+    text-decoration:none;
+
+}
+ion-header-bar>h3{
+    color:white;
+    margin:auto;
+}
+ion-header-bar>h3>i{
+    position:absolute;
+    right:0.5em;
+}
+ion-header-bar>h3>a{
+    color:white;
+    position:absolute;
+    font-size:0.8em;
+    top:0.5em;
+}
+ion-header-bar>h3>a:nth-child(1){
+    left:0.5em
+}
+ion-header-bar>h3>a:nth-child(2){
+    right:0.5em;
+}
+.item-icon-right .icon{
+    font-size:0.8em;
+}

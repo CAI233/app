@@ -1,0 +1,122 @@
+a{
+    text-decoration:none;
+    color:black;
+}
+.tab-item .icon{
+    /*width:24px;*/
+    background-size:contain !important;
+    background-position:center center !important;
+}
+
+.ion-1{
+    background:url("../images/img_one.png") no-repeat;
+    /*background-position:center center;*/
+}
+.ion-2{
+    background:url("../images/img_two.png") no-repeat;
+    /*background-position:center center;*/
+}
+.ion-3{
+    background:url("../images/img_three.png") no-repeat;
+    /*background-position:center center;*/
+}
+.ion-4{
+    background:url("../images/img_four.png") no-repeat;
+    /*background-position:center center;*/
+}
+.ion-1_on{
+    background:url("../images/img_one1.png")  no-repeat;
+}
+.ion-2_on{
+    background:url("../images/img_two1.png")  no-repeat;
+}
+.ion-3_on{
+    background:url("../images/img_three1.png")  no-repeat;
+}
+.ion-4_on{
+    background:url("../images/img_four1.png")  no-repeat;
+}
+
+
+
+/*搜索页面的样式*/
+#sec_span{
+    float:left;height: 31px;line-height: 31px;margin-right:10px;cursor:pointer;
+}
+#sec_ul{
+    position:absolute;
+    display:none;
+    left:0px;
+    top:55px;
+    border:1px solid black;
+    box-shadow:1px 1px 5px black,-1px -1px 5px black;
+}
+#sec_ul:before,#sec_ul:after{
+    border: solid transparent;
+    content: ' ';
+    height: 0;
+    position: absolute;
+    width: 0;
+    bottom: 100%;
+}
+#sec_ul:before{
+    border-width: 12px;
+    border-bottom-color: #000;
+    left: 18px;
+}
+#sec_ul:after{
+    border-width: 10px;
+    border-bottom-color: #fff;
+    left: 20px;
+}
+#sec_ul>li{
+    padding:5px 10px;
+    /*outline:1px solid red;*/
+}
+#sec_ul>li>i{
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    background-size: contain;
+    vertical-align: bottom
+}
+.coffee{
+    background:url("../images/search/coffee.png")  no-repeat;
+}
+.shop{
+    background:url("../images/search/shop.png")  no-repeat;
+}
+.supor{
+    background:url("../images/search/supor.png")  no-repeat;
+}
+/*地址地方代码*/
+#sec_add{
+    margin:5px 10px;
+    box-shadow:1px 2px 1px gray;
+    border-radius:5px;
+}
+#sec_add>a>i{
+    color:orange;
+}
+/*展示部分*/
+#sec_show{
+    display:flex;text-align:center;margin:0 10px;box-shadow:1px 1px 3px black,-1px -1px 3px black
+}
+#sec_show p{
+    color:orange;
+}
+
+/*person页面代码*/
+#per_1{
+    display:flex;
+    position:relative;
+    margin-bottom:10px;
+}
+#per_1>p{
+    flex:1;
+    margin-bottom:0;
+    /*outline:1px solid red;*/
+    font-size:18px;
+    padding:5px;
+    text-align:center;
+}
